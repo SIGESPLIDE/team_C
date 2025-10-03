@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="12">
     <diagram id="5_ouLX0pcZbIHZVXgqJ2" name="ロバストネス図メモ">
-        <mxGraphModel dx="446" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="363" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -832,7 +832,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="ドメインモデル" id="VoWd6gBjgNp8Sd1fnr84">
-        <mxGraphModel dx="-381" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+        <mxGraphModel dx="-246" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -882,16 +882,16 @@
                 <mxCell id="0_zHpy_kFFXOhbgwaXjo-28" value="出席状況" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1619" y="711" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="0_zHpy_kFFXOhbgwaXjo-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-29" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
+                <mxCell id="0_zHpy_kFFXOhbgwaXjo-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-29" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="0_zHpy_kFFXOhbgwaXjo-29" value="欠席率" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1619" y="815" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="0_zHpy_kFFXOhbgwaXjo-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-33" target="0_zHpy_kFFXOhbgwaXjo-29" edge="1">
+                <mxCell id="0_zHpy_kFFXOhbgwaXjo-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-33" target="0_zHpy_kFFXOhbgwaXjo-29" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="0_zHpy_kFFXOhbgwaXjo-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-33" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
+                <mxCell id="0_zHpy_kFFXOhbgwaXjo-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-33" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="0_zHpy_kFFXOhbgwaXjo-33" value="累計欠席回数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -926,10 +926,10 @@
                 <mxCell id="0_zHpy_kFFXOhbgwaXjo-50" value="教職員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1960" y="340" width="82" height="118" as="geometry"/>
                 </mxCell>
-                <mxCell id="0_zHpy_kFFXOhbgwaXjo-76" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-73" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
+                <mxCell id="0_zHpy_kFFXOhbgwaXjo-76" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-73" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="0_zHpy_kFFXOhbgwaXjo-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-73" target="0_zHpy_kFFXOhbgwaXjo-29" edge="1">
+                <mxCell id="0_zHpy_kFFXOhbgwaXjo-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="0_zHpy_kFFXOhbgwaXjo-73" target="0_zHpy_kFFXOhbgwaXjo-29" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="0_zHpy_kFFXOhbgwaXjo-73" value="出席回数" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1050,7 +1050,7 @@
                 <mxCell id="Y989YKCPw7QvAfzDcF5x-2" value="ドメインモデル" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=30;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fontFamily=Verdana;spacingTop=20;spacingLeft=20;" parent="1" vertex="1">
                     <mxGeometry x="1220" y="88" width="240" height="62" as="geometry"/>
                 </mxCell>
-                <mxCell id="RLfe0fUh0mccOWUNHsYs-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" parent="1" source="RLfe0fUh0mccOWUNHsYs-1" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
+                <mxCell id="RLfe0fUh0mccOWUNHsYs-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="RLfe0fUh0mccOWUNHsYs-1" target="0_zHpy_kFFXOhbgwaXjo-28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="RLfe0fUh0mccOWUNHsYs-1" value="日付" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1066,7 +1066,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="ユースケース図" id="6zEf5-AZ4cmNDsxKMD5t">
-        <mxGraphModel dx="644" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="447" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
