@@ -1080,6 +1080,24 @@
                 <mxCell id="tixg_MmvqFlpmfcmoBDg-20" value="退学" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="2100" y="740" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="tixg_MmvqFlpmfcmoBDg-23" style="edgeStyle=none;html=1;" edge="1" parent="1" source="tixg_MmvqFlpmfcmoBDg-22" target="0_zHpy_kFFXOhbgwaXjo-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tixg_MmvqFlpmfcmoBDg-22" value="科目コード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1408" y="298" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tixg_MmvqFlpmfcmoBDg-27" style="edgeStyle=none;html=1;" edge="1" parent="1" source="tixg_MmvqFlpmfcmoBDg-24" target="0_zHpy_kFFXOhbgwaXjo-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tixg_MmvqFlpmfcmoBDg-24" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 14px; background-color: transparent;&quot;&gt;コース名&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;spacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="2017" y="238" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tixg_MmvqFlpmfcmoBDg-26" style="edgeStyle=none;html=1;" edge="1" parent="1" source="tixg_MmvqFlpmfcmoBDg-25" target="0_zHpy_kFFXOhbgwaXjo-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tixg_MmvqFlpmfcmoBDg-25" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 14px; background-color: transparent;&quot;&gt;コースコード&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;spacing=0;" vertex="1" parent="1">
+                    <mxGeometry x="2177" y="238" width="120" height="60" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

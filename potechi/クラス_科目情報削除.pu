@@ -1,0 +1,14 @@
+@startuml EC_sirte_クラス
+skinparam ClassAttributeIconSize 0
+
+'クラスの定義
+Class "科目"{
+    - 科目名
+    - 科目コード
+    + getter()
+    + setter()
+}
+
+
+
+@enduml
