@@ -27,7 +27,7 @@ Class "ユーザー情報"{
 }
 
 class "会員ユーザー"{
-    -ユーザー情報:FK
+    - ユーザー情報:FK
     + getter()
     + setter()
 }
