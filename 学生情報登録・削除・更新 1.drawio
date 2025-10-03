@@ -1,0 +1,330 @@
+<mxfile host="65bd71144e" pages="6">
+    <diagram name="学生情報登録" id="ETpRgwh8z7qlRdHGgHE6">
+        <mxGraphModel dx="351" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-13" target="M3nRduMv_F_Eh8u1VUDu-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-13" value="システムが&lt;div&gt;画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="140" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-14" target="M3nRduMv_F_Eh8u1VUDu-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-19" value="「登録」ボタンを&lt;div&gt;押下する&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M3nRduMv_F_Eh8u1VUDu-18" vertex="1" connectable="0">
+                    <mxGeometry x="0.0205" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-14" target="M3nRduMv_F_Eh8u1VUDu-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-27" value="学生情報を入力し、&lt;br&gt;「登録完了」ボタンを押下する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M3nRduMv_F_Eh8u1VUDu-26" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0556" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-14" value="教職員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="210" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-15" target="M3nRduMv_F_Eh8u1VUDu-33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-15" value="学生情報登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="350" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-30" value="完了画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="650" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-16" target="M3nRduMv_F_Eh8u1VUDu-20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-16" value="学生情報閲覧画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="200" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-20" target="M3nRduMv_F_Eh8u1VUDu-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-20" value="システムが&lt;div&gt;学生情報登録画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="398" y="260" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-33" target="M3nRduMv_F_Eh8u1VUDu-42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-36" value="未入力の項目が&lt;div&gt;なかった場合&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M3nRduMv_F_Eh8u1VUDu-35" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2431" y="-5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-33" target="M3nRduMv_F_Eh8u1VUDu-37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-39" value="未入力の項目が&lt;br&gt;あった場合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M3nRduMv_F_Eh8u1VUDu-38" vertex="1" connectable="0">
+                    <mxGeometry x="0.1143" y="1" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h8SyhMxVgRf_fW8Mq0r_-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.163;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-42" target="M3nRduMv_F_Eh8u1VUDu-45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-33" value="システムが&lt;br&gt;入力内容を&lt;div&gt;確認する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="350" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-50" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-45" target="M3nRduMv_F_Eh8u1VUDu-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-45" value="システムが&lt;div&gt;登録の完了を&lt;/div&gt;&lt;div&gt;確認する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="476" y="510" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-42" target="M3nRduMv_F_Eh8u1VUDu-43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-42" value="登録する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="345" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-37" target="M3nRduMv_F_Eh8u1VUDu-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-37" value="システムが&lt;div&gt;メッセージを表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="495" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M3nRduMv_F_Eh8u1VUDu-28" target="M3nRduMv_F_Eh8u1VUDu-30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-28" value="システムが&lt;br&gt;完了画面&lt;br&gt;を表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="585" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3nRduMv_F_Eh8u1VUDu-43" value="学生情報" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="350" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="RIDWp6xN7T8SrgLDkbqS" name="学生情報削除">
+        <mxGraphModel dx="351" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="oxqMf5riS48OrlRyMO6--1" value="Boundary Object" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="40" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="oxqMf5riS48OrlRyMO6--2" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="40" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="oxqMf5riS48OrlRyMO6--3" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="oxqMf5riS48OrlRyMO6--4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RhJD369ApgRA4MZA0sAL-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IJb-97X7i32FMVPv7hrO-2" target="e2TNg4C7hBLwev1eqR8l-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RhJD369ApgRA4MZA0sAL-2" value="「削除」ボタンを&lt;div&gt;押下する&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RhJD369ApgRA4MZA0sAL-1" vertex="1" connectable="0">
+                    <mxGeometry x="0.0909" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fPRJhq49ioj2jJgVY4v6-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IJb-97X7i32FMVPv7hrO-2" target="RhJD369ApgRA4MZA0sAL-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fPRJhq49ioj2jJgVY4v6-2" value="ボタンを&lt;div&gt;押下する&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fPRJhq49ioj2jJgVY4v6-1" vertex="1" connectable="0">
+                    <mxGeometry x="0.0382" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IJb-97X7i32FMVPv7hrO-2" value="教職員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="340" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RhJD369ApgRA4MZA0sAL-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e2TNg4C7hBLwev1eqR8l-1" target="IJb-97X7i32FMVPv7hrO-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2TNg4C7hBLwev1eqR8l-1" value="「学生情報削除」画面&lt;br&gt;※１" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="290" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="fPRJhq49ioj2jJgVY4v6-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RhJD369ApgRA4MZA0sAL-4" target="5J1UZuSlFnGCn4w_uFkH-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="fPRJhq49ioj2jJgVY4v6-6" value="「はい」ボタンを&lt;div&gt;押下された場合&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fPRJhq49ioj2jJgVY4v6-5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0601" y="3" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5SavMUnvu_t-OznBC-JW-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RhJD369ApgRA4MZA0sAL-4" target="5SavMUnvu_t-OznBC-JW-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5SavMUnvu_t-OznBC-JW-6" value="「いいえ」ボタンを&lt;div&gt;押下された場合&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5SavMUnvu_t-OznBC-JW-5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4778" y="3" relative="1" as="geometry">
+                        <mxPoint x="-1" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RhJD369ApgRA4MZA0sAL-4" value="確認画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="450" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="RhJD369ApgRA4MZA0sAL-11" value="完了画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="740" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="IJb-97X7i32FMVPv7hrO-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IJb-97X7i32FMVPv7hrO-1" target="e2TNg4C7hBLwev1eqR8l-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IJb-97X7i32FMVPv7hrO-1" value="システムが&lt;div&gt;画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="190" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="RhJD369ApgRA4MZA0sAL-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IJb-97X7i32FMVPv7hrO-4" target="RhJD369ApgRA4MZA0sAL-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IJb-97X7i32FMVPv7hrO-4" value="システムが&lt;div&gt;確認画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="330" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5J1UZuSlFnGCn4w_uFkH-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5J1UZuSlFnGCn4w_uFkH-1" target="bIpr7TnMZWsHxwyj7fus-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="HtD4g39pCMCi_jpNXacF-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5J1UZuSlFnGCn4w_uFkH-1" target="RhJD369ApgRA4MZA0sAL-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5J1UZuSlFnGCn4w_uFkH-1" value="削除する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="455" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5J1UZuSlFnGCn4w_uFkH-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RhJD369ApgRA4MZA0sAL-9" target="RhJD369ApgRA4MZA0sAL-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RhJD369ApgRA4MZA0sAL-9" value="システムが&lt;div&gt;完了画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="730" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="bIpr7TnMZWsHxwyj7fus-1" value="学生情報" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="460" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5SavMUnvu_t-OznBC-JW-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5SavMUnvu_t-OznBC-JW-3" target="5SavMUnvu_t-OznBC-JW-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5SavMUnvu_t-OznBC-JW-3" value="システムが&lt;div&gt;学生情報削除画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="344" y="570" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5SavMUnvu_t-OznBC-JW-4" value="「学生情報削除」画面&lt;br&gt;※１" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="590" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5SavMUnvu_t-OznBC-JW-10" value="※１は同じ画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="220" width="110" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="HtreOjOMZtp92J6IWod-" name="学生情報更新">
+        <mxGraphModel dx="351" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FHIB-Uz83k0BB5twAfSU-1" value="Boundary Object" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="10" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FHIB-Uz83k0BB5twAfSU-2" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="10" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FHIB-Uz83k0BB5twAfSU-3" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="10" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FHIB-Uz83k0BB5twAfSU-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tetrlGI3f2UQ5BEYI3Vn-1" target="-KRnmXcJTDBtNqGwlhFE-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-5" value="「更新」ボタンを&lt;br&gt;押下する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qJqToDEOiSwClCau99pC-4" vertex="1" connectable="0">
+                    <mxGeometry x="0.149" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tetrlGI3f2UQ5BEYI3Vn-1" target="qJqToDEOiSwClCau99pC-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-9" value="ボタンを&lt;br&gt;押下する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qJqToDEOiSwClCau99pC-8" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0706" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tetrlGI3f2UQ5BEYI3Vn-1" value="教職員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="260" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-KRnmXcJTDBtNqGwlhFE-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iA37Gb--n98TVmGB6Byu-1" target="-KRnmXcJTDBtNqGwlhFE-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iA37Gb--n98TVmGB6Byu-1" value="システムが&lt;div&gt;画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="135" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nU2G-XSF6mYrfK5gGhL_-1" target="qJqToDEOiSwClCau99pC-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nU2G-XSF6mYrfK5gGhL_-1" value="システムが&lt;div&gt;画面を&lt;/div&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="275" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="criO5upQTx-ftVM1Vn7G-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="criO5upQTx-ftVM1Vn7G-2" target="criO5upQTx-ftVM1Vn7G-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="criO5upQTx-ftVM1Vn7G-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="criO5upQTx-ftVM1Vn7G-2" target="qJqToDEOiSwClCau99pC-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="criO5upQTx-ftVM1Vn7G-2" value="更新する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="365" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="7LEZ1ZS6JGP94r2tzm3L-3" style="edgeStyle=none;html=1;" parent="1" source="7LEZ1ZS6JGP94r2tzm3L-1" target="criO5upQTx-ftVM1Vn7G-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7LEZ1ZS6JGP94r2tzm3L-4" value="未入力の項目が&lt;br&gt;あった場合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7LEZ1ZS6JGP94r2tzm3L-3" vertex="1" connectable="0">
+                    <mxGeometry x="-0.073" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7LEZ1ZS6JGP94r2tzm3L-5" style="edgeStyle=none;html=1;" parent="1" source="7LEZ1ZS6JGP94r2tzm3L-1" target="nU2G-XSF6mYrfK5gGhL_-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7LEZ1ZS6JGP94r2tzm3L-6" value="未入力の項目が&lt;br&gt;なかった場合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7LEZ1ZS6JGP94r2tzm3L-5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1333" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7LEZ1ZS6JGP94r2tzm3L-1" value="システムが&lt;br&gt;入力内容を&lt;br&gt;確認する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="455" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJqToDEOiSwClCau99pC-6" target="qJqToDEOiSwClCau99pC-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-6" value="システムが&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;画面を&lt;/span&gt;&lt;div&gt;表示する&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="580" width="76" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-KRnmXcJTDBtNqGwlhFE-1" target="nU2G-XSF6mYrfK5gGhL_-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-KRnmXcJTDBtNqGwlhFE-1" value="学生情報登録&lt;br&gt;画面&lt;div&gt;※１&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="205" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="criO5upQTx-ftVM1Vn7G-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJqToDEOiSwClCau99pC-1" target="7LEZ1ZS6JGP94r2tzm3L-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ogvyVeexMcK5ITTiH9Zl-1" value="「更新する」ボタンを&lt;br&gt;押下された場合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="criO5upQTx-ftVM1Vn7G-4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1714" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aOWU_cPwQP8EtzYq_UTW-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qJqToDEOiSwClCau99pC-1" target="-KRnmXcJTDBtNqGwlhFE-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="aOWU_cPwQP8EtzYq_UTW-2" value="「戻る」ボタンを&lt;br&gt;押下された&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;場合&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aOWU_cPwQP8EtzYq_UTW-1" vertex="1" connectable="0">
+                    <mxGeometry x="0.05" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-1" value="学生情報更新&lt;div&gt;画面&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="365" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="qJqToDEOiSwClCau99pC-10" value="完了画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="590" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="criO5upQTx-ftVM1Vn7G-1" value="学生情報" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="370" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

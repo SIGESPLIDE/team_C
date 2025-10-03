@@ -1,0 +1,37 @@
+@startuml シーケンス_欠席回数登録
+
+
+' 登場するモノの定義
+actor    "教職員"          as User
+boundary "出席状況画面"     as b1
+control  "表示"            as c1
+boundary "出席状況登録画面" as b2
+control  "処理"            as c2
+control  "処理"            as c3
+entity   "出席状況"        as e1
+entity   "学生情報"        as e2
+
+
+' シーケンスの流れ
+c1   -> e1 : 参照する()
+c1  <-- e1
+c1   -> e2 : 参照する()
+c1  <-- e2
+c1   -> b1: 出席状況画面を表示する():method = POST()
+User -> b1: 「登録」ボタンを押下する
+b1   -> b2 : 出席状況登録画面を表示する():method = POST()
+User -> b2 : 「欠席」チェックボックスを選択し「完了」ボタンを押下する
+
+' 分岐
+alt 内容を変更せずに「完了」ボタンを押下した場合
+    b2  -> b1 :出席状況画面を表示する()
+
+else 内容を変更して「完了」ボタンを押下した場合
+    b2  -> c2 : 起動する:method = POST()
+    c2  -> e1 : 登録する():boolean
+    c3 <-- e1
+    c3  -> b1 :完了メッセージと出席状況画面を表示する():method = POST()
+end
+
+
+@enduml

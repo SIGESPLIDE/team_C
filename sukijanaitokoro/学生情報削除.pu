@@ -1,0 +1,33 @@
+@startuml 学生情報削除
+
+actor    "教職員"          as User
+boundary "学生情報削除画面" as b1
+control  "表示"            as c1
+boundary "確認画面"        as b2
+control  "処理"            as c2
+entity   "学生情報"        as e1
+boundary "完了画面"        as b3
+
+
+'流れ
+c1    -> e1:参照する():method=GET()
+c1   <-- e1
+c1    -> b1:表示する():method=POST()
+User  -> b1:「削除」ボタンを押下する
+'削除する学生の情報を持っている
+b1    -> b2:確認画面を表示する():method=POST()
+User  -> b2:ボタンを押下する
+
+'場合分け
+alt 「いいえ」ボタンを押下された場合
+    '学生情報削除画面を表示する
+    b2 -> b1:学生情報削除画面を表示する()
+else 「はい」ボタンを押下された場合
+    '削除する
+    b2  -> c2:起動する():method=POST()
+    c2  -> e1:削除する():boolean
+    c2 <-- e1
+    c2  -> b3:完了画面を表示する():method=POST()
+end
+
+@enduml

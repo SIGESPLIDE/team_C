@@ -1,0 +1,31 @@
+@startuml 成績削除シーケンス図
+
+actor       "ユーザー" as User
+boundary    "成績削除画面" as b4
+boundary    "完了画面" as b5
+control     "入力内容を確認" as c1
+control     "削除処理" as c2
+entity      "学生情報DB" as e1
+
+User -> b4: 成績削除ボタンを押下
+b4 -> c1: 削除対象を送信
+
+alt 入力が正しくない場合
+    c1 -> b4: 「入力内容が不正です」と表示
+else 入力が正しい場合
+    c1 -> c2: 削除処理を実行
+    c2 -> e1: 成績情報を削除
+    e1 --> c2: 削除結果を返却
+
+    alt 削除対象が存在しない場合
+        c2 -> b4: 「該当データがありません」と表示
+    else 削除対象が存在する場合
+        alt 削除に失敗した場合
+            c2 -> b4: 削除失敗メッセージを表示
+        else 削除に成功した場合
+            c2 -> b5: 完了画面を表示
+        end
+    end
+end
+
+@enduml

@@ -1,0 +1,52 @@
+@startuml 買い物内容を清算する
+' 物理名称として書き出す際には使用するフレームワークによって
+' ロジックや名称が変わる
+
+
+
+' 登場モノの定義
+actor "User" as User
+boundary "checkoutScreen.jsp" as b1
+control "CheckoutScreenController.java" as c1
+boundary "ShippingAddress&CreditCardInputScreen.jsp" as b2
+boundary "PaymentConfirmationScreen.jsp" as b3
+boundary "PurchaseCompleteView" as b4
+control "Process" as c2
+control "Process" as c3
+control "Process" as c4
+entity "ShoppingCart" as e1
+entity "UserInfo" as e2
+entity "PurchaseHistory" as e3
+
+
+' シーケンスの流れ
+c1   -> e1 : 参照する()
+c1  <-- e1
+c1   -> b1: 会計画面を表示する()
+User -> b1: 会計ボタンを押下する
+b1   -> c2: 起動する:method = GET()
+
+alt 会員ユーザーの場合
+    c2   -> c3 : 起動する()
+    c3   -> e2 : 参照する()
+    c3  <-- e2
+    c3   -> b2 : 送付先住所・クレジットカード情報入力画面を表示する()
+
+else 新規ユーザーの場合
+    c2   -> b2 : 送付先住所・クレジットカード情報入力画面を表示する()
+end
+
+User  -> b2 : 必要情報を入力し、\n確認ボタンを押下する
+b2    -> b3 : 表示():method = POST()
+User  -> b3 : 「支払確認」を押下する
+b3    -> c4 : 起動する:method = POST()
+c4    -> e3 : 登録する():boolean
+c4   <-- e3
+c4    -> e1 : 更新する():boolean
+c4   <-- e1
+c4    -> b4 : 購入完了画面を表示する()
+
+
+
+
+@enduml

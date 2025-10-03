@@ -1,0 +1,48 @@
+@startuml 買い物内容を清算する
+
+' 登場モノの定義
+actor    "ユーザー"         as User
+boundary "会計画面"         as b1
+control  "表示"             as c1
+boundary "送付先住所・クレジットカード\n情報入力画面" as b2
+boundary "支払方法確認画面"  as b3
+boundary "購入完了画面"      as b4
+control  "処理"             as c2
+control  "処理"             as c3
+control  "処理"             as c4
+entity   "買い物内容"        as e1
+entity   "ユーザー情報"      as e2
+entity   "買い物履歴"        as e3
+
+
+' シーケンスの流れ
+c1   -> e1 : 参照する()
+c1  <-- e1
+c1   -> b1: 会計画面を表示する()
+User -> b1: 会計ボタンを押下する
+b1   -> c2: 起動する:method = GET()
+
+alt 会員ユーザーの場合
+    c2   -> c3 : 起動する()
+    c3   -> e2 : 参照する()
+    c3  <-- e2
+    c3   -> b2 : 送付先住所・クレジットカード情報入力画面を表示する()
+
+else 新規ユーザーの場合
+    c2   -> b2 : 送付先住所・クレジットカード情報入力画面を表示する()
+end
+
+User  -> b2 : 必要情報を入力し、\n確認ボタンを押下する
+b2    -> b3 : 表示():method = POST()
+User  -> b3 : 「支払確認」を押下する
+b3    -> c4 : 起動する:method = POST()
+c4    -> e3 : 登録する():boolean
+c4   <-- e3
+c4    -> e1 : 更新する():boolean
+c4   <-- e1
+c4    -> b4 : 購入完了画面を表示する()
+
+
+
+
+@enduml

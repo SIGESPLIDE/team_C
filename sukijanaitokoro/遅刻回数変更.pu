@@ -1,0 +1,40 @@
+@startuml シーケンス_遅刻回数変更
+
+' 登場するモノの定義
+actor    "教職員"          as User
+boundary "出席状況画面"     as b1
+control  "表示"            as c1
+boundary "出席履歴画面"     as b2
+boundary "出席状況変更画面" as b3
+control  "処理"            as c2
+entity   "出席状況"        as e1
+entity   "学生情報"        as e2
+
+
+' シーケンスの流れ
+c1   -> e1 : 参照する()
+c1  <-- e1
+c1   -> e2 : 参照する()
+c1  <-- e2
+c1   -> b1: 出席状況画面を表示する():method = POST()
+User -> b1: 「履歴」ボタンを押下する
+b1   -> b2: 出席履歴画面を表示する():method = POST()
+
+' 分岐
+alt 「戻る」ボタンを押下した場合
+    b2   -> b1:出席状況画面を表示する()
+else 「変更」ボタンを押下した場合
+    b2   -> b3: 出席状況変更画面を表示する():method = POST()
+    User -> b3: 「遅刻」チェックボックスを選択し「完了」ボタンを押下する
+    ' 分岐
+    alt 内容を変更して「完了」ボタンを押下した場合
+        b3  -> c2: 起動する():method = POST()
+        c2  -> e1: 変更する():boolean
+        c2 <-- e1
+        c2  -> b2 :完了メッセージと出席履歴画面を表示する():method = POST()
+    else 内容を変更せずに完了ボタンを押下した場合
+        b3  -> b2 :出席履歴画面を表示する()
+    end
+end
+
+@enduml

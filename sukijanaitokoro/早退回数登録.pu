@@ -1,0 +1,32 @@
+@startuml シーケンス_早退回数登録
+
+' 登場するモノの定義
+actor    "教職員"          as User
+boundary "出席状況画面"     as b1
+control  "表示"            as c1
+boundary "早退回数登録画面" as b2
+control  "処理"            as c2
+control  "処理"            as c3
+entity   "出席状況"        as e1
+
+
+' シーケンスの流れ
+c1   -> e1 : 参照する()
+c1  <-- e1
+c1   -> b1: 表示する():method = GET()
+User -> b1: 登録ボタンを押下する
+b1   -> b2: 表示する():method = POST()
+User -> b2: 「早退」チェックボックスを選択し、\n「完了」ボタンを押下する
+
+
+alt 内容を変更して「完了」ボタンを押下した場合
+    b2  -> c2: 起動する()
+    c2  -> e1: 早退回数を登録する()
+    c2 <-- e1
+    c2  -> b1: 出席状況画面を表示する()
+else 内容を変更せずに「完了」ボタンを押下した場合
+    b2  -> b1: 出席状況画面を表示する()
+end
+
+
+@enduml

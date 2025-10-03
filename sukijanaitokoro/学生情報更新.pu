@@ -1,0 +1,39 @@
+@startuml シーケンス_学生情報更新
+
+actor    "教職員"          as User
+boundary "学生情報登録画面" as b1
+control  "表示"            as c1
+boundary "学生情報更新画面" as b2
+'入力内容を確認
+control  "処理"            as c2
+'更新処理をする
+control  "処理"            as c3
+entity   "学生情報"        as e1
+boundary "完了画面"        as b3
+
+
+'流れ
+c1   -> e1:参照する()
+c1  <-- e1
+c1   -> b1:表示する():method=POST()
+User -> b1:「更新」ボタンを押下する
+b1   -> b2:学生情報更新画面を表示する():method=POST()
+User -> b2:必要情報を入力しボタンを押下する
+
+'場合分け
+alt 「戻る」ボタンを押下された場合
+    b2 -> b1:学生情報登録画面を表示する():method=POST()
+else 「更新する」ボタンを押下された場合
+    b2 -> c2:入力内容を確認する():method=POST()
+    alt 未入力の項目があった場合
+    '別の入力の情報を持っているからPOST
+        c2  -> b2:「未入力の項目があります」とメッセージを表示する():method=POST()
+    else 未入力の項目がなかった場合
+        c2  -> c3:起動する()
+        c3  -> e1:更新する():boolean
+        c3 <-- e1
+        c3  -> b3:完了画面を表示する():method=POST()
+    end
+end
+
+@enduml
